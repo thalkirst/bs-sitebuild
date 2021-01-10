@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - New Age v5.0.9 (https://startbootstrap.com/theme/new-age)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-new-age/blob/master/LICENSE)
- */
-
 html,
 body {
   width: 100%;
@@ -347,27 +341,33 @@ section.contact ul.list-social li a {
 }
 
 section.contact ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
+  background-color: #0d95e8;
+  opacity: 0.9;
 }
 
 section.contact ul.list-social li.social-twitter a:hover {
   background-color: #0d95e8;
+  opacity: 1;
 }
 
 section.contact ul.list-social li.social-facebook a {
-  background-color: #3b5998;
+  background-color: #344e86;
+  opacity: 0.9;
 }
 
 section.contact ul.list-social li.social-facebook a:hover {
   background-color: #344e86;
+  opacity: 1;
 }
 
 section.contact ul.list-social li.social-google-plus a {
-  background-color: #dd4b39;
+  background-color: #d73925;
+  opacity: 0.9;
 }
 
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
+  opacity: 1;
 }
 
 footer {
@@ -419,6 +419,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   color: white;
   border-color: #fdcc52;
   background-color: #fdcc52;
+  transition: 300ms;
 }
 
 .btn {
